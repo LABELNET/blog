@@ -28,7 +28,8 @@ install:
 
 script:
 - hexo clean
-- hexo generate
+- hexo g
+- hexo g
 
 after_success:
 - hexo deploy
