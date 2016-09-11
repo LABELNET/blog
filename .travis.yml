@@ -15,7 +15,7 @@ before_install:
 - ssh-add ~/.ssh/id_rsa
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name "LABELNET"
-- git config --global user.email "yuan@ubuntu"
+- git config --global user.email "1406046087@qq.com"
 install:
 - npm install
 script:
