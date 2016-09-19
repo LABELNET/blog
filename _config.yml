@@ -4,12 +4,12 @@
 
 # Site
 title: "三生烟火"
-subtitle:
+subtitle: LABELNET
 description: "我愿倾尽三生烟火换你一世迷离"
 author: "原明卓"
 language: zh-Hans
 timezone:
-avatar: /images/fire.png
+avatar: http://avatar.csdn.net/C/2/D/1_lablenet.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -65,6 +65,20 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next1
+
+# 启用多说
+duoshuo_shortname: sanshengyanhuo
+# 多说热评文章
+duoshuo_hotartical: true
+# 多说分享服务
+duoshuo_share: true
+# 百度分享服务
+baidushare: true
+
+# 本地搜索
+search:
+  path: search.xml
+  field: post
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
